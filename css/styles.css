@@ -84,6 +84,8 @@ span {
   letter-spacing: 0.06em;
   color: var(--white-color);
   background-color: var(--accent-color);
+
+  cursor: pointer;
 }
 
 /* Секція переваги */
@@ -194,6 +196,8 @@ span {
   text-align: center;
   letter-spacing: 0.03em;
   background-color: var(--background-color);
+
+  cursor: pointer;
 }
 
 .portfolio-btn:hover,
