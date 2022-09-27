@@ -96,6 +96,11 @@ span {
   cursor: pointer;
 }
 
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #0873b9;
+}
+
 /* Секція переваги */
 
 .advantages-subtitle {
