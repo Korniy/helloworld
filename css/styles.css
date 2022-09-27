@@ -1,4 +1,8 @@
 :root {
+  /* шрифти */
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+
   /* палітра кольорів */
   --accent-color: #2196f3;
   --main-color: #212121;
@@ -8,7 +12,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--main-font);
   color: var(--main-color);
 }
 
@@ -27,7 +31,7 @@ span {
 /* Шапка сайту  */
 
 .header-logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -41,6 +45,10 @@ span {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-color);
+}
+
+.current {
+  color: var(--accent-color);
 }
 
 .nav-link:hover,
@@ -65,6 +73,7 @@ span {
 
 .hero {
   text-align: center;
+  background-color: #2f303a;
 }
 
 .hero-title {
@@ -74,7 +83,6 @@ span {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
-  background-color: #2f303a;
 }
 
 .hero-btn {
@@ -152,7 +160,7 @@ span {
 }
 
 .footer-logo {
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -189,7 +197,7 @@ span {
 /* Портфоліо */
 
 .portfolio-btn {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
