@@ -16,6 +16,24 @@ body {
   color: var(--main-color);
 }
 
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .list {
   list-style: none;
 }
@@ -29,7 +47,9 @@ span {
 }
 
 /* Шапка сайту  */
-
+.wrapper {
+  display: flex;
+}
 .header-logo {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -37,6 +57,10 @@ span {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
+}
+
+.nav-list {
+  display: flex;
 }
 
 .nav-link {
@@ -54,6 +78,10 @@ span {
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent-color);
+}
+
+.header-list {
+  display: flex;
 }
 
 .header-link {
