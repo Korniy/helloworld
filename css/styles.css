@@ -162,7 +162,7 @@ span {
   cursor: pointer;
 
   border-radius: 4px;
-  border-color: var(--accent-color);
+  border: 1px solid var(--accent-color);
 }
 
 .hero-btn:hover,
@@ -336,7 +336,25 @@ span {
 
 /* Портфоліо */
 
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.portfolio-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.portfolio-item:not(:last-child) {
+  margin-right: 8px;
+}
+
 .portfolio-btn {
+  display: inline-block;
+  padding: 6px 22px;
+
   font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
@@ -344,14 +362,24 @@ span {
   text-align: center;
   letter-spacing: 0.03em;
   background-color: var(--background-color);
-
   cursor: pointer;
+
+  border-radius: 4px;
+  border: 1px solid var(--background-color);
 }
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
+}
+
+.portfolio-sublist {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-subitem {
 }
 
 .portfolio-subtitle {
