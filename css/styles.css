@@ -382,12 +382,17 @@ span {
 .portfolio-sublist {
   display: flex;
   flex-wrap: wrap;
+
+  /* margin: -15px; */
 }
 
 .portfolio-subitem {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+
+  /* margin: 15px;
+  width: 370px; */
 
   border: 1px solid #eeeeee;
 }
