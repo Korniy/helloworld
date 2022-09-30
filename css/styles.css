@@ -62,6 +62,10 @@ span {
 
 /* Шапка сайту  */
 
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
 .header-wrapper {
   display: flex;
   align-items: center;
@@ -409,6 +413,8 @@ span {
 }
 
 .portfolio-text {
+  margin-top: 4px;
+
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
