@@ -67,6 +67,9 @@ span {
 /* ШАПКА САЙТУ  */
 
 .header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+
   border-bottom: 1px solid #ececec;
 }
 
@@ -76,9 +79,6 @@ span {
 }
 
 .header-logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
-
   font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
