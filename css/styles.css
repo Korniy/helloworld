@@ -187,6 +187,10 @@ span {
   padding-bottom: 94px;
 }
 
+.advantages-item {
+  min-width: 270px;
+}
+
 .advantages-item:not(:last-child) {
   margin-right: 30px;
 }
