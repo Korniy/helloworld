@@ -267,8 +267,9 @@ span {
   margin-right: 30px;
 }
 
-.team-img {
-  margin-bottom: 30px;
+.team-wrapper {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-subtitle {
@@ -282,8 +283,6 @@ span {
 }
 
 .team-text {
-  padding-bottom: 30px;
-
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
