@@ -60,6 +60,10 @@ span {
   color: var(--accent-color);
 }
 
+.no-gap {
+  display: block;
+}
+
 /* ШАПКА САЙТУ  */
 
 .header {
