@@ -382,17 +382,19 @@ span {
 
   border: 1px solid #afb1b8;
   border-radius: 4px;
-
   cursor: pointer;
+}
+
+.clients-item:hover {
+  border-color: var(--accent-color);
 }
 
 .clients-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.clients-link:hover .clients-svg {
+.clients-item:hover .clients-svg {
   fill: var(--accent-color);
-  border-color: var(--accent-color);
 }
 
 .clients-svg {
