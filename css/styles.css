@@ -410,6 +410,11 @@ span {
   background-color: #2f303a;
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
 .footer-logo {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -453,6 +458,46 @@ span {
   color: var(--accent-color);
 }
 
+.wrapper {
+  margin-left: 70px;
+}
+
+.wrapper-text {
+  margin-bottom: 20px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--white-color);
+}
+
+.wrapper-list {
+  display: flex;
+}
+
+.wrapper-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.wrapper-link:hover,
+.wrapper-link:focus {
+  background-color: var(--accent-color);
+}
+
+.wrapper-item:not(:last-child) {
+  margin-right: 10px;
+}
+
 /* ПОРТФОЛІО */
 
 .portfolio {
@@ -491,6 +536,9 @@ span {
 .portfolio-btn:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .portfolio-sublist {
@@ -530,8 +578,6 @@ span {
   width: 370px;
 
   */
-
-  border: 1px solid #eeeeee;
 }
 
 /* Сітка 1-й варінт */
@@ -544,10 +590,17 @@ span {
   margin-bottom: 0;
 }
 
+.portfolio-subitem:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 /* ------------------- */
 
 .portfolio-wrapper {
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
+  border-top: none;
 }
 
 .portfolio-subtitle {
