@@ -154,8 +154,16 @@ span {
   padding-top: 200px;
   padding-bottom: 200px;
 
+  /* max-width: 1600px;
+  height: 600px; */
+
   text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
   background-color: #c4c4c4;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../images/hero.jpg');
 }
 
 .hero-title {
@@ -387,6 +395,10 @@ span {
 
 .clients-item:hover {
   border-color: var(--accent-color);
+}
+
+.clients-link:focus .clients-svg {
+  fill: var(--accent-color);
 }
 
 .clients-item:not(:last-child) {
