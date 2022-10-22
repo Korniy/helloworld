@@ -512,6 +512,12 @@ span {
   border-color: var(--accent-color);
 }
 
+/* .clients-link:hover .clients-svg,
+.clients-link:focus .clients-svg {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
+} */
+
 .clients-link:focus .clients-svg {
   fill: var(--accent-color);
 }
