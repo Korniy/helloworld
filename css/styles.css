@@ -391,7 +391,7 @@ span {
   justify-content: center;
 }
 
-/* .modal-checkbox {
+.modal-checkbox {
   position: absolute;
 
   -webkit-appearance: none;
@@ -415,7 +415,7 @@ span {
   background-image: url('../images/icon.svg');
   background-origin: border-box;
   background-size: contain;
-} */
+}
 
 .label-checkbox {
   display: flex;
