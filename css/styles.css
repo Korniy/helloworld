@@ -401,6 +401,7 @@ span {
 
 .checkbox-span {
   display: inline-block;
+  margin-right: 9px;
 
   width: 16px;
   height: 15px;
@@ -410,8 +411,7 @@ span {
 
 .modal-checkbox:checked + .checkbox-span {
   border-color: transparent;
-  background-color: orange;
-
+  background-color: var(--accent-color);
   background-image: url('../images/icon.svg');
   background-origin: border-box;
   background-size: contain;
