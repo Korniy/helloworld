@@ -1,11 +1,6 @@
 @charset "UTF-8";
 /* ШРИФТИ */
 /* ПАЛІТРА КОЛЬОРІВ */
-body {
-  font-family: "Roboto", sans-serif;
-  color: #212121;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -18,6 +13,11 @@ body {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
 }
 
 h1,
