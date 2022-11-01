@@ -474,4 +474,48 @@ span {
 .field__btn:hover, .field__btn:focus {
   background-color: #0873b9;
 }
+
+.page-advantages__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.page-advantages__item {
+  min-width: 270px;
+}
+
+.page-advantages__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.page-advantages__thumb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+}
+
+.page-advantages__subtitle {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.page-advantages__text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 /*# sourceMappingURL=main.css.map */
