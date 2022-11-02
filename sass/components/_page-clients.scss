@@ -29,15 +29,15 @@
   }
 
   &:hover {
-    border-color: pink;
+    border-color: $accent-color;
   }
 
   &:hover .page-clients__svg {
-    fill: pink;
+    fill: $accent-color;
   }
 }
 .page-clients__link:focus .page-clients__svg {
-  fill: pink;
+  fill: $accent-color;
 }
 .page-clients__svg {
   fill: #afb1b8;
