@@ -7,9 +7,10 @@
 .footer-container {
   display: flex;
   align-items: baseline;
+  justify-content: center;
 }
 .page-footer__logo {
-  font-family: $secondary-color;
+  font-family: $secondary-font;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -17,6 +18,7 @@
   color: $white-color;
 }
 .page-footer__address {
+  min-width: 231px;
   margin-top: 20px;
 }
 .page-footer__item:not(:last-child) {
