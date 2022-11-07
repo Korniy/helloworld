@@ -52,6 +52,8 @@ span {
 
 .no-gap {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .page-header {
