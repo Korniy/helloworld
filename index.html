@@ -34,7 +34,18 @@
 
     <header class="page-header">
       <div class="container page-wrapper">
-        <a href="/" class="page-header__logo link"><span>Web</span>Studio</a>
+        <!-- Кнопка відкриття мобільного меню -->
+
+        <div class="mobile-burger">
+          <a href="/" class="page-header__logo link"><span>Web</span>Studio</a>
+          <button class="mobile-burger__btn is-open" type="button" data-menu-button>
+            <svg width="40" height="40" aria-label="Перемикач мобільного меню">
+              <use class="mobile-burger__menu" href="images/burger.svg#icon-burger-menu"></use>
+              <use class="mobile-burger__close" href="images/burger.svg#icon-burger-close"></use>
+            </svg>
+          </button>
+        </div>
+
         <nav class="nav">
           <ul class="nav__list">
             <li class="nav__item list">
@@ -553,5 +564,6 @@
       </div>
     </footer>
     <script src="./js/modal.js"></script>
+    <script src="./js/burger-menu.js"></script>
   </body>
 </html>

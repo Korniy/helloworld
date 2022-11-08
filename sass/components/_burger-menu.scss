@@ -1,0 +1,36 @@
+// Кнопка
+.mobile-burger {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-burger__btn {
+  margin-left: auto;
+
+  background-color: transparent;
+  border: none;
+  padding: 0;
+
+  & .mobile-burger__menu {
+    opacity: 1;
+  }
+  & .mobile-burger__close {
+    opacity: 0;
+  }
+
+  &.is-active .mobile-burger__menu {
+    opacity: 0;
+  }
+  &.is-active .mobile-burger__close {
+    opacity: 1;
+  }
+
+  &:hover,
+  &:focus {
+    fill: $accent-color;
+  }
+
+  @media screen and (min-width: 768) {
+    display: none;
+  }
+}
