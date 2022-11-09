@@ -38,12 +38,82 @@
 
         <div class="mobile-burger">
           <a href="/" class="page-header__logo link"><span>Web</span>Studio</a>
-          <button class="mobile-burger__btn is-open" type="button" data-menu-button>
+          <button
+            class="mobile-burger__btn is-open"
+            type="button"
+            data-menu-button
+            aria-controls="mobile-menu"
+          >
             <svg width="40" height="40" aria-label="Перемикач мобільного меню">
               <use class="mobile-burger__menu" href="images/burger.svg#icon-burger-menu"></use>
               <use class="mobile-burger__close" href="images/burger.svg#icon-burger-close"></use>
             </svg>
           </button>
+        </div>
+
+        <!-- Мобільне меню -->
+
+        <div class="mobile-overlay" id="mobile-menu">
+          <div class="mobile-menu">
+            <nav class="mobile-nav">
+              <ul class="mobile-nav__list list">
+                <li class="mobile-nav__item">Студія</li>
+                <li class="mobile-nav__item">Портфоліо</li>
+                <li class="mobile-nav__item">Контакти</li>
+              </ul>
+            </nav>
+            <ul class="mobile-contacts list">
+              <li class="mobile-contacts__item">
+                <a href="tel:+38 096 111 11 11" class="mobile-contacts__link link"
+                  >+38 096 111 11 11</a
+                >
+              </li>
+              <li class="mobile-contacts__item">
+                <a href="mailto:info@devstudio.com" class="mobile-contacts__link link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+
+            <ul class="mobile-socials list">
+              <li class="mobile-socials__item">
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="mobile-socials__link link"
+                  >Instagram</a
+                >
+              </li>
+              <li class="mobile-socials__item">
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="mobile-socials__link link"
+                  >Twitter</a
+                >
+              </li>
+              <li class="mobile-socials__item">
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="mobile-socials__link link"
+                  >Facebook</a
+                >
+              </li>
+              <li class="mobile-socials__item">
+                <a
+                  href=""
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="mobile-socials__link link"
+                  >LinkedIn</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
 
         <nav class="nav">
