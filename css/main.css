@@ -422,7 +422,7 @@ span {
 }
 
 .page-advantages__item {
-  min-width: 450px;
+  width: 100%;
 }
 
 .page-advantages__item:not(:last-child) {
@@ -733,7 +733,7 @@ span {
   padding-left: 16px;
   padding-top: 15px;
   padding-bottom: 15px;
-  min-width: 450px;
+  width: 100%;
   min-height: 50px;
   color: #ffffff;
   background-color: #2f303a;
@@ -1015,6 +1015,7 @@ span {
 
 .mobile-overlay {
   position: absolute;
+  pointer-events: none;
   top: 0;
   left: 0;
   width: 100%;
