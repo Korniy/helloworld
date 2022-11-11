@@ -1,25 +1,18 @@
 .page-header {
-  @media screen and (min-width: 320px) and (max-width: 767px) {
-    position: relative;
+  position: relative;
 
-    padding-top: 16px;
-    padding-bottom: 16px;
-    border-bottom: 1px solid #ececec;
-  }
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #ececec;
 }
 
 .page-header__logo {
   font-family: $secondary-font;
   font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-size: 24px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   color: #000000;
-
-  @media screen and (min-width: 320px) and (max-width: 767px) {
-    font-size: 24px;
-    line-height: 1.16;
-  }
 }
 
 .nav {
