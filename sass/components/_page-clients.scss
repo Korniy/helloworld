@@ -15,11 +15,18 @@
 .page-clients__list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+
+  margin: -15px;
 }
 
 .page-clients__item {
-  padding: 13px 51px;
+  width: calc((100% - 2 * 15) / 2);
+  margin: 15px;
 
+  min-width: 210px;
+  min-height: 92px;
+  width: 210px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   cursor: pointer;
@@ -35,9 +42,19 @@
   }
 }
 
-.page-clients__link:focus .page-clients__svg {
-  fill: $accent-color;
+.page-clients__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+
+  &:focus .page-clients__svg {
+    fill: $accent-color;
+  }
 }
+
 .page-clients__svg {
   fill: #afb1b8;
 
