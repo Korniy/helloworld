@@ -41,7 +41,6 @@
 
 .mobile-overlay {
   position: fixed;
-  pointer-events: none;
 
   top: 0;
   left: 0;
@@ -68,14 +67,19 @@
   background-color: rgb(246, 242, 242);
 }
 
-.mobile-nav__item {
+.mobile-nav__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.mobile-nav__link {
   font-weight: 500;
   font-size: 40px;
   line-height: 1.17;
   letter-spacing: 0.02em;
+  color: $main-color;
 
-  &:not(:last-child) {
-    margin-bottom: 32px;
+  &.current {
+    color: $accent-color;
   }
 }
 
