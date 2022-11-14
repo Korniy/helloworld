@@ -21,7 +21,8 @@
 }
 
 .page-clients__item {
-  flex-basis: calc((100% - 2 * 15) / 2);
+  width: calc((100% - 2 * 15) / 2);
+
   margin: 15px;
 
   min-width: 210px;
