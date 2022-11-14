@@ -5,6 +5,7 @@
 
 .page-clients__title {
   margin-bottom: 30px;
+
   font-weight: 700;
   font-size: 28px;
   line-height: 1.17;
@@ -15,7 +16,6 @@
 .page-clients__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 
   margin: -15px;
 }
@@ -40,6 +40,11 @@
 
   &:hover .page-clients__svg {
     fill: $accent-color;
+  }
+
+  @media screen and (min-width: 768px) {
+    min-width: 226px;
+    width: calc((100% - 6 * 15px) / 3);
   }
 }
 

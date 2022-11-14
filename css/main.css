@@ -887,9 +887,6 @@ span {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   margin: -15px;
 }
 
@@ -911,6 +908,13 @@ span {
 
 .page-clients__item:hover .page-clients__svg {
   fill: #2196f3;
+}
+
+@media screen and (min-width: 768px) {
+  .page-clients__item {
+    min-width: 226px;
+    width: calc((100% - 6 * 15px) / 3);
+  }
 }
 
 .page-clients__link {
