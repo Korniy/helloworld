@@ -944,8 +944,13 @@ span {
 .page-footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  text-align: center;
   background-color: #2f303a;
+}
+
+@media screen and (max-width: 767px) {
+  .page-footer {
+    text-align: center;
+  }
 }
 
 .page-footer__logo {
@@ -982,9 +987,11 @@ span {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-wrapper {
-  margin-top: 60px;
-  margin-bottom: 60px;
+@media screen and (max-width: 767px) {
+  .footer-wrapper {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
 }
 
 .footer-wrapper__text {
