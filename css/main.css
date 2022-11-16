@@ -1195,9 +1195,23 @@ span {
   margin-bottom: 40px;
 }
 
+@media screen and (min-width: 768px) {
+  .page-portfolio__list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+
 .page-portfolio__item:not(:last-child) {
   margin-right: 8px;
-  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .page-portfolio__item:not(:last-child) {
+    margin-bottom: 15px;
+  }
 }
 
 .page-portfolio__btn {
@@ -1223,12 +1237,35 @@ span {
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
+@media screen and (min-width: 768px) {
+  .page-portfolio__sublist {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin: -15px;
+  }
+}
+
 .page-portfolio__subitem {
-  margin-bottom: 30px;
   -webkit-transition: -webkit-box-shadow 500ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-box-shadow 500ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 500ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 500ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (max-width: 767px) {
+  .page-portfolio__subitem {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .page-portfolio__subitem {
+    width: calc((100% - 4 * 15px) / 2);
+    margin: 15px;
+  }
 }
 
 .page-portfolio__subitem:hover .page-portfolio__text {
@@ -1245,6 +1282,12 @@ span {
 .page-portfolio__overlay {
   position: relative;
   overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .page-portfolio__img {
+    width: 354px;
+  }
 }
 
 .page-portfolio__text {
@@ -1267,10 +1310,22 @@ span {
   transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+@media screen and (min-width: 768px) {
+  .page-portfolio__text {
+    padding: 49px 24px 77px 24px;
+  }
+}
+
 .page-portfolio__wrapper {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
   border-top: none;
+}
+
+@media screen and (min-width: 768px) {
+  .page-portfolio__wrapper {
+    padding: 20px 24px 58px 24px;
+  }
 }
 
 .page-portfolio__subtitle {
