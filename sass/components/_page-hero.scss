@@ -29,6 +29,23 @@
         url('../images/tablet/tablet-hero2x.webp');
     }
   }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4)),
+      url('../images/desctop/desctop-hero.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #c4c4c4;
+
+    @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4)),
+        url('../images/desctop/desctop-hero2x.webp');
+    }
+  }
 }
 
 .page-hero__title {
@@ -41,6 +58,11 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: $white-color;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 44px;
+    line-height: 1.36;
+  }
 }
 
 .page-hero__btn {
@@ -65,6 +87,11 @@
   &:hover,
   &:focus {
     background-color: #0873b9;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 8px 30px;
+    min-width: 216px;
   }
 }
 // ------------------------------------------------
