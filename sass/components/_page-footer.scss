@@ -9,11 +9,24 @@
   }
 }
 
+.footer-container {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+  }
+}
+
 .tablet-container {
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     display: flex;
     justify-content: space-around;
     margin-bottom: 60px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: baseline;
   }
 }
 
@@ -24,6 +37,11 @@
   line-height: 1.16;
   letter-spacing: 0.03em;
   color: $white-color;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 1.19;
+  }
 }
 
 .page-footer__address {
@@ -33,6 +51,10 @@
 
 .page-footer__item:not(:last-child) {
   margin-bottom: 8px;
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 9px;
+  }
 }
 
 .page-footer__desk {
@@ -56,6 +78,10 @@
     margin-top: 60px;
     margin-bottom: 60px;
   }
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 70px;
+  }
 }
 
 .footer-wrapper__text {
@@ -69,7 +95,7 @@
 
   color: $white-color;
 
-  @media screen and (min-width: 767px) {
+  @media screen and (min-width: 767px) and (max-width: 1199px) {
     text-align: center;
   }
 }
@@ -104,6 +130,18 @@
   }
 }
 
+.footer-field {
+  @media screen and (min-width: 1200px) {
+    margin-left: 93px;
+  }
+}
+
+.footer-field__wrapper {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
+}
+
 .footer-field__text {
   margin-bottom: 20px;
 
@@ -115,7 +153,7 @@
 
   color: $white-color;
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     text-align: center;
   }
 }
@@ -157,6 +195,10 @@
   @media screen and (min-width: 768px) {
     max-width: 450px;
   }
+
+  @media screen and (min-width: 1200px) {
+    min-width: 358px;
+  }
 }
 
 .footer-field__btn {
@@ -187,6 +229,12 @@
   &:hover,
   &:focus {
     background-color: #0873b9;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 12px;
   }
 }
 .footer-field__svg {
