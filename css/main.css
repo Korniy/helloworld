@@ -197,6 +197,9 @@ span {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin-left: auto;
   }
 }
@@ -212,6 +215,7 @@ span {
 @media screen and (min-width: 1200px) {
   .page-header__item:first-child {
     margin-right: 50px;
+    margin-bottom: 0;
   }
 }
 
@@ -532,6 +536,13 @@ span {
   border-radius: 4px;
 }
 
+@media screen and (min-width: 1200px) {
+  .modal {
+    min-width: 528px;
+    min-height: 581px;
+  }
+}
+
 .modal__button {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -620,6 +631,13 @@ span {
 .field__input:hover + .field__icon,
 .field__input:focus + .field__icon {
   fill: #2196f3;
+}
+
+@media screen and (min-width: 1200px) {
+  .field__input {
+    min-width: 448px;
+    min-height: 40px;
+  }
 }
 
 .field__icon {
@@ -732,6 +750,13 @@ span {
   color: #757575;
 }
 
+@media screen and (min-width: 1200px) {
+  .checkbox__label {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+}
+
 .checkbox__link {
   color: #2196f3;
 }
@@ -759,6 +784,12 @@ span {
 
 .field__btn:hover, .field__btn:focus {
   background-color: #0873b9;
+}
+
+@media screen and (min-width: 1200px) {
+  .field__btn {
+    margin-top: 20px;
+  }
 }
 
 .page-advantages {
@@ -1502,6 +1533,13 @@ span {
   padding-bottom: 60px;
 }
 
+@media screen and (min-width: 1200px) {
+  .page-portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
 .page-portfolio__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1517,6 +1555,12 @@ span {
         -ms-flex-pack: center;
             justify-content: center;
     margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .page-portfolio__list {
+    margin-bottom: 50px;
   }
 }
 
@@ -1584,6 +1628,12 @@ span {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .page-portfolio__subitem {
+    width: calc((100% - 6 * 15px) / 3);
+  }
+}
+
 .page-portfolio__subitem:hover .page-portfolio__text {
   /* transform: translateY(0); */
   -webkit-transform: scale(1);
@@ -1603,6 +1653,13 @@ span {
 @media screen and (min-width: 768px) {
   .page-portfolio__img {
     width: 354px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .page-portfolio__img {
+    width: 370px;
+    height: 294px;
   }
 }
 
@@ -1629,6 +1686,12 @@ span {
 @media screen and (min-width: 768px) {
   .page-portfolio__text {
     padding: 49px 24px 77px 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .page-portfolio__text {
+    padding: 63px 24px;
   }
 }
 

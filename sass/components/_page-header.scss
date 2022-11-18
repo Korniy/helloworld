@@ -103,6 +103,7 @@
 
   @media screen and (min-width: 1200px) {
     display: flex;
+    align-items: center;
     margin-left: auto;
   }
 }
@@ -116,6 +117,7 @@
 
   @media screen and (min-width: 1200px) {
     margin-right: 50px;
+    margin-bottom: 0;
   }
 }
 
