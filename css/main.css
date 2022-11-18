@@ -1017,20 +1017,6 @@ span {
   }
 }
 
-@media screen and (min-width: 768px) {
-  .page-team__img {
-    width: 354px;
-    height: 374px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .page-team__img {
-    width: 270px;
-    height: 260px;
-  }
-}
-
 .page-team__wrapper {
   padding-top: 30px;
   padding-bottom: 24px;
