@@ -50,6 +50,7 @@
   transform: translateX(100%);
 
   opacity: 0;
+  z-index: 9;
 
   &.is-open {
     opacity: 1;
