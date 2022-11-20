@@ -67,17 +67,17 @@
   }
 }
 
-// .page-team__img {
-//   @media screen and (min-width: 768px) {
-//     width: 354px;
-//     height: 374px;
-//   }
+.page-team__img {
+  @media screen and (min-width: 768px) {
+    width: 354px;
+    height: 374px;
+  }
 
-//   @media screen and (min-width: 1200px) {
-//     width: 270px;
-//     height: 260px;
-//   }
-// }
+  @media screen and (min-width: 1200px) {
+    width: 270px;
+    height: 260px;
+  }
+}
 
 .page-team__wrapper {
   padding-top: 30px;

@@ -537,13 +537,6 @@ span {
   border-radius: 4px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 479px) {
-  .modal {
-    min-width: 300px;
-    min-height: 581px;
-  }
-}
-
 @media screen and (min-width: 1200px) {
   .modal {
     min-width: 528px;
@@ -1022,6 +1015,20 @@ span {
   }
   .page-team__item:not(:last-child) {
     margin-right: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .page-team__img {
+    width: 354px;
+    height: 374px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .page-team__img {
+    width: 270px;
+    height: 260px;
   }
 }
 
